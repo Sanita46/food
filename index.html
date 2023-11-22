@@ -4,16 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Food4you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fredericka+the+Great&family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
     <header>
       <div class="container">
         <div class="row logo_part">
-          <nav class="navbar navbar-expand-lg">
+          <nav class="navbar navbar-expand-lg wow fadeInDown">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,18 +43,23 @@
             </div>
           </nav>
         </div>
-        <div class="row banner">
-          <div class="col-md-6">
+        <div class="row banner ">
+          <div class="col-md-6 wow fadeInLeftBig">
             <h3>Are You Hungry?</h3>
-          <h1>Don't Wait!</h1>
-          <p>Let start to order food now</p>
-          <span></span>
-          <div class="monday">
-            <h5>This Monday <br>
+            <h1>Don't Wait!</h1>
+            <p>Let start to order food now</p>
+            <span></span>
+            <div class="monday">
+             <h5>This Monday <br>
               Happy Hours</h5>
               <h2>1+1=3</h2>
+            </div>
+            <a href class="btn btn-order">order now</a>
           </div>
-          <a href class="btn btn-order">order now</a>
+          <div class="col-md-6">
+            <div class="banner-img wow fadeInRightBig">
+              <img src="images/bannerimg.png" class="img-fluid" alt="">
+            </div>
           </div>
 
         </div>
@@ -64,25 +75,25 @@
           <div class="row foods">
             <div class="col-md-4">
               <div class="food_items">
-                <img src="images/items1.png" class="img-fluid" alt="">
+                <img src="images/items1.png" class="img-fluid wow fadeInUpBig" data-wow-delay=".3s" alt="">
                 <h5>Lorem ipsum dolor</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do</p>
                 <a href class="btn btn_now">order now</a>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="food_items">
-                <img src="images/items2.png" class="img-fluid" alt="">
+              <div class="food_items items-none">
+                <img src="images/items2.png" class="img-fluid wow fadeInUpBig" data-wow-delay=".5s" alt="">
                 <h5>Lorem ipsum dolor</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do</p>
                 <a href class="btn btn_now">order now</a>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="food_items">
-                <img src="images/items3.png" class="img-fluid" alt="">
+              <div class="food_items  items-none">
+                <img src="images/items3.png" class="img-fluid width wow fadeInUpBig" data-wow-delay=".7s" alt="">
                 <h5>Lorem ipsum dolor</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do</p>
                 <a href class="btn btn_now">order now</a>
               </div>
             </div>
@@ -116,6 +127,138 @@
       </div>
 
     </section>
+
+    <section class="food-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="items-info">
+              <h5>Try it today</h5>
+              <h2>Most <br>
+                Popular <br>
+                Pasta</h2>   
+            </div>
+            <div class="item-img">
+              <img src="images/food1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="Popular-foods">
+              <div class="items-info-2">
+                <h5>Try it today</h5>
+                <h2>More fun <br>
+                  more taste</h2>
+              </div>
+              <div class="item-img-2">
+                <img src="images/food2.png" class="img-fluid" alt="">
+              </div> 
+              <div class="items-info-3">
+                <h5>Try it today</h5>
+                <h2>Fresh & Chili</h2>
+              </div>
+              <div class="item-img-3">
+                <img src="images/food3.png" class="img-fluid" alt="">
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="form-section">
+      <div class="container">
+        
+          <div class="reservation">
+            <h6>Reservation</h6>
+            <h1>Book your table</h1>
+            <form action>
+               <div class="form-1">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Date">
+                <input type="text" placeholder="People">
+              </div>
+                <div class="form-2">
+                  <input type="email" placeholder="Email">
+                <input type="text" placeholder="Time">
+                <div class="submit-btn">
+                  <input type="submit" value="find a table">
+                </div>
+              </div>
+            </form>
+          </div>
+        
+      </div>
+
+    </section>
+
+
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="footer-info">
+                <img src="images/ffooter-logo.png" class="img-fluid" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Quis ipsum suspendisse ultrices gravida. Risus commodo viver <br> ra maecenas accumsan lacus vel facilisis. </p>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="footer-contact wow fadeInRightBig">
+                <div class="contact-box">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="footer-p">
+                    <p>Main Road, Building Name, Country</p>
+                  </div>
+                </div>
+                <div class="contact-box">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="footer-p">
+                    <p>info@companyname.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row footer-aling">
+            <div class="col-md-5">
+              <div class="rights ">
+                <p>Company Name 2020. All rights reserved.</p>
+              </div>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-4">
+              <div class="social-icon">
+                <div class="icon wow fadeInUp" data-wow-delay=".2s">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="icon wow fadeInUp" data-wow-delay=".4s">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="icon wow fadeInUp" data-wow-delay=".6s">
+                  <i class="fa-brands fa-square-twitter"></i>
+                </div>
+                <div class="icon wow fadeInUp" data-wow-delay=".8s">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
     
 
 
@@ -123,6 +266,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script>
           $(document).ready(function(){
@@ -131,9 +275,23 @@
         loop: true,
         center: true,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 3000,
+        responsive:{
+          0: {
+            items: 1,
+          },
+          575: {
+            items: 1,
+          },
+          767: {
+            items: 3
+          }
+        }
        });
      });
+    </script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>

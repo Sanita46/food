@@ -1,0 +1,471 @@
+@media(max-width:1400px){
+    .foods {
+        margin: 200px 0px;
+    }
+}
+
+@media(max-width:1399px){
+    .banner {
+        margin-right: 250px;
+        margin-top: 75px;
+    }
+    .banner h3 {
+        font-size: 42px;
+    }
+    .banner h1 {
+        font-size: 60px;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    .foods {
+        margin: 190px 0px;
+    }
+}
+
+
+@media(max-width:1199px){
+    .banner {
+        margin-right: 110px;
+        margin-top: 65px;
+    }
+    .banner h3 {
+        font-size: 40px;
+    }
+    .banner h1 {
+        font-size: 62px;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    .btn-order {
+        margin-right: 18px;
+    }
+    .banner-img {
+        bottom: 145px;
+    }
+    .monday {
+        margin-left: 70px;
+    }
+    .menu {
+        bottom: -200px;
+        margin-left: 0px;
+    }
+    .foods {
+        margin: 150px 0px;
+    }
+    .food_items  .width {
+        width: 100% !important;
+    }
+    .food_items img {
+        width: 87%;
+    }
+    .food_items {
+        margin-left: 0px;
+        text-align: justify;
+    }
+    .btn_now{
+        margin-left: 110px;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+
+
+@media(max-width:991px){
+    .banner-img {
+        bottom: 256px;
+    }
+    .banner {
+        margin-right: 0px;
+        margin-top: 44px;
+    }
+    .banner h3 {
+        font-size: 40px;
+    }
+    .banner h1 {
+        font-size: 50px;
+    }
+    .banner p {
+        font-size: 17px;
+    }
+    .monday {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .monday h5 {
+        font-size: 18px;
+    }
+    .monday h2 {
+        font-size: 36px;
+    }
+    .btn-order {
+        margin-right: 19px;
+    }
+    .menu {
+        bottom: -190px;
+        margin-left: 0px;
+    }
+    .feature h2 {
+        font-size: 41px;
+    }
+    .foods {
+        margin: 75px 0px;
+    }
+    .food_items  .width {
+        width: 98% !important;
+    }
+    .food_items img {
+        width: 72%;
+    }
+    .food_items {
+        bottom: -271px;
+        margin-left: 6px;
+        text-align: justify;
+    }
+    .food_items h5 {
+        font-size: 19px;
+        text-align: justify;
+    }
+    .food_items p {
+        text-align: justify;
+    }
+    .btn_now {
+        margin-left: 45px;
+    }
+    .discover h5 {
+        font-size: 20px;
+    }
+    .discover h2 {
+        font-size: 35px;
+    }
+    .discover {
+        margin-top: 230px;
+    }
+    .items-info h2 {
+        font-size: 33px;
+    }
+    .items-info h5 {
+        font-size: 22px;
+    }
+    .Popular-foods .items-info-2 h2 {
+        font-size: 24px;
+    }
+    .Popular-foods .items-info-2 h5 {
+        font-size: 20px;
+    }
+    .Popular-foods .items-info-3 h2 {
+        font-size: 26px;
+    }
+    .Popular-foods .items-info-3 h5 {
+        font-size: 20px;
+    }
+    .Popular-foods .items-info-2 {
+        margin-top: 15px;
+    }
+
+    .Popular-foods .item-img-3 {
+        margin-top: 20px;
+    }
+    .reservation h1 {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .form-section {
+        padding: 15px 0px 20px 0px;
+    }
+    form {
+        width: 100%;
+    }
+    .footer-info p {
+        margin-top: 50px;
+    }
+    .footer-contact {
+        margin-left: 30px;
+        margin-top: 60%;
+    }
+    .footer-p p {
+        margin-left: 20px;
+    }
+    footer {
+        padding-bottom: 30px;
+    }
+}
+
+
+
+@media(max-width:767px){
+    .banner {
+        margin-right: 0px;
+        margin-top: 45px;
+    }
+    .banner-img img {
+        display: none;
+    }
+    .banner h3 {
+        font-size: 37px;
+    }
+    .banner h1 {
+        font-size: 50px;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    .monday {
+        margin-left: 119px;
+    }
+    .monday h5 {
+        font-size: 18px;
+    }
+    .monday h2 {
+        font-size: 38px;
+    }
+    .btn-order {
+        margin-right: 30px;
+    }
+    .feature h2 {
+        font-size: 32px;
+    }
+    .menu {
+        margin-left: 0px;
+    }
+    .items-none{
+        display: none;
+    }
+    .food_items {
+        margin-left: 185px;
+        bottom: -285px;
+    }
+    .food_items img {
+        width: 85%;
+    }
+    .btn_now {
+        padding: 9px 22px;
+        font-size: 14px;
+        margin-left: 110px;
+    }
+    .food_items p {
+        font-size: 15px;
+    }
+    .food_items h5 {
+        font-size: 22px;
+        margin-left: 60px;
+    }
+    .feature p {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .foods {
+        margin: 115px 0px;
+    }
+    .food_items p{
+        font-size: 17px;
+        margin-left: 70px;
+    }
+    .discover h5 {
+        font-size: 20px;
+    }
+    .discover h2 {
+        font-size: 32px;
+    }
+    .discover {
+        margin-top: 210px;
+    }
+    .Popular-foods .item-img-3 {
+        margin-top: 30px;
+    }
+    .Popular-foods .item-img-2 {
+        margin-top: 30px;
+    }
+    .food-item {
+        padding: 60px 0px 30px;
+    }
+    .reservation h6 {
+        font-size: 20px;
+    }
+    .reservation h1 {
+        font-size: 35px;
+    }
+    .items-info h5 {
+        font-size: 28px;
+    }
+    .items-info h2 {
+        font-size: 40px;
+    }
+    .Popular-foods .items-info-2 {
+        margin-top: 24px;
+    }
+    .Popular-foods .items-info-2 h5 {
+        font-size: 27px;
+    }
+    .Popular-foods .items-info-2 h2 {
+        font-size: 29px;
+    }
+    .Popular-foods .items-info-3 h5 {
+        font-size: 25px;
+    }
+    .Popular-foods .items-info-3 h2 {
+        font-size: 30px;
+    }
+    form {
+        width: 90%;
+    }
+    .footer-info p {
+        margin-top: 45px;
+        font-size: 16px;
+    }
+    .footer-contact {
+        margin-top: 25%;
+        margin-left: 0px;
+    }
+    .footer-p p {
+        font-size: 17px;
+    }
+    .icon i {
+        font-size: 30px;
+         margin: 10px 0px;
+    }
+    .icon {
+        margin-left: 20px;
+    }
+    .social-icon {
+        margin-left: 0%;
+    }
+    .footer-bottom {
+        margin-top: 10%;
+    }
+}
+
+
+
+@media(max-width:575px){
+    .banner {
+        text-align: center;
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+    .banner-img img {
+        display: none;
+    }
+    .banner h3 {
+        font-size: 40px;
+    }
+    .banner h1 {
+        font-size: 55px;
+    }
+    .banner p {
+        font-size: 20px;
+    }
+    .monday {
+        margin-left: 147px;
+    }
+    .monday h5 {
+        font-size: 18px;
+    }
+    .monday h2 {
+        font-size: 37px;
+    }
+    .btn-order {
+        padding: 6px 14px;
+        margin-right: 44px;
+    }
+    .menu {
+        bottom: -213px;
+        margin-left: 0px;
+    }
+    .feature h2 {
+        font-size: 34px;
+    }
+    .food_items h5 {
+        font-size: 18px;
+        margin-left: 70px;
+    }
+    .feature p {
+        font-size: 14px;
+        font-size: 17px;
+    }
+    .food_items p{
+        margin-left: 70px;
+        font-size:16px;
+    }
+    .items-none{
+        display: none;
+    }
+    .foods {
+        margin: 130px 0px;
+    }
+    .food_items {
+        margin-left: 100px;
+    }
+    .btn_now {
+        margin-left: 90px;
+    }
+    .discover {
+        margin-top: 190px;
+    }
+    .discover h5 {
+        font-size: 20px;
+    }
+    .discover h2 {
+        font-size: 32px;
+    }
+    .items-info h5 {
+        font-size: 28px;
+    }
+    .items-info h2 {
+        font-size: 40px;
+    }
+    .Popular-foods .items-info-2 {
+        margin-top: 24px;
+    }
+    .Popular-foods .items-info-2 h5 {
+        font-size: 27px;
+    }
+    .Popular-foods .items-info-2 h2 {
+        font-size: 31px;
+    }
+    .Popular-foods .items-info-3 h5 {
+        font-size: 27px;
+    }
+    .Popular-foods .items-info-3 h2 {
+        font-size: 32px;
+    }
+    .Popular-foods .item-img-3 {
+        margin-top: 30px;
+    }
+    .Popular-foods .item-img-2 {
+        margin-top: 30px;
+    }
+    .food-item {
+        padding: 60px 0px 30px;
+    }
+    .reservation h6 {
+        font-size: 20px;
+    }
+    .reservation h1 {
+        font-size: 35px;
+    }
+    form {
+        width: 90%;
+    }
+    .footer-info img {
+        width: 46%;
+    }
+    .footer-contact {
+        margin-top: 20%;
+        margin-left: 0px;
+    }
+    .social-icon {
+        margin-left: 0%;
+    }
+    .icon {
+        margin-left: 22px;
+    }
+    .icon i {
+        font-size: 28px;
+        margin-top: 7px;
+    }
+}

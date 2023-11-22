@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
     padding: 0;
 }
 header{
-    background-image: url(../images/header.png);
+    background-image: url(../images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +21,7 @@ margin-right: 22px;
 .nav-link{
     
 font-size: 16px;
+font-family: 'Montserrat', sans-serif;
     
 font-weight: 700;
     
@@ -35,6 +36,10 @@ padding: 20px 0px;
 
 align-items: center;
 }
+
+.banner-img{position: absolute;bottom: 25px;}
+.banner-img img{
+}
 .banner{
     
 text-align: center;
@@ -45,7 +50,8 @@ margin-top: 90px;
 }
 .banner h3{
     
-font-size: 35px;
+font-size: 45px;
+font-family: 'Dancing Script', cursive;
 }
 .banner h1{
     
@@ -54,6 +60,7 @@ font-size: 67px;
 text-transform: uppercase;
     
 margin: 10px 0px;
+font-family: 'Fredericka the Great', serif;
 }
 .banner p{
     
@@ -64,6 +71,7 @@ font-weight: 700;
 text-transform: uppercase;
     
 letter-spacing: 1px;
+font-family: 'Montserrat', sans-serif
 }
 .banner span{
     background-color: #ccb301;
@@ -86,13 +94,17 @@ margin-bottom: 25px;
 
 text-transform: uppercase;
 
-font-size: 18px;
+font-size: 20px;
+
+font-family: 'Fredericka the Great', serif;
 }
 .monday h2{
 
-font-size: 40px;
+font-size: 42px;
 
 margin-left: 10px;
+
+font-family: 'Fredericka the Great', serif;
 }
 .btn-order{
     
@@ -105,6 +117,7 @@ padding: 9px 25px;
 border-radius: 0;
     
 font-size: 17px;
+font-family: 'Montserrat', sans-serif;
     
 text-transform: uppercase;
     
@@ -134,8 +147,15 @@ bottom: -250px;
     
 margin-left: 100px;
 }
-.feature h2{text-transform: uppercase;font-size: 43px;}
+.feature h2{
+    text-transform: uppercase;
+    font-size: 43px;
+    font-family: 'Fredericka the Great', serif;
+    margin-bottom: 10px;
+}
 .feature p{
+    
+    /* font-size: 15px; */
 }
 
 .foods{
@@ -154,7 +174,7 @@ position: absolute;
 
 bottom: -290px;
 
-margin-left: 40px;
+margin-left: 22px;
 
 text-align: center;
 }
@@ -165,6 +185,7 @@ width: 90%;
 .food_items h5{
     
 text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
     
 font-size: 21px;
     
@@ -190,6 +211,7 @@ text-align: center;
     background: #ffe001;
     border: none;
     transition: .5s all ease-in-out;
+    font-family: 'Montserrat', sans-serif;
 }
 .btn_now:hover{
     background: #000;
@@ -208,17 +230,22 @@ text-align: center;
     
 text-transform: uppercase;
     
-font-size: 24px;
+font-size: 22px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
 }
 .discover h2{
     
 text-transform: uppercase;
     
 font-size: 40px;
+font-family: 'Fredericka the Great', serif;
 }
 .discover p{
     
 font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
     
 margin-top: 14px;
     
@@ -233,15 +260,328 @@ margin-bottom: 40PX;
     transform: scale(1.15);
     opacity: 1;
 }
+.owl-carousel .owl-dots.disabled{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
 .owl-carousel{
-    
+
 }
 .owl-carousel .owl-dots{
-
 }
 .owl-carousel .owl-dots .owl-dot{
     
+background: transparent;
 }
 .owl-carousel .owl-dots .owl-dot span{
     
+display: inline-block;
+    
+width: 8px;
+    
+height: 8px;
+    
+border-radius: 50%;
+    
+margin-left: 4px;
+    
+margin-bottom: 10px;
+    
+border: 1px solid;
+}
+
+
+.food-item{
+
+padding: 90px 0px 70px;
+}
+.items-info{
+
+position: absolute;
+
+margin-top: 50px;
+
+margin-left: 40px;
+}
+.items-info h5{
+
+color: #fff;
+
+font-size: 28px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 700;
+
+text-transform: uppercase;
+}
+.items-info h2{
+    
+color: #fff;
+    
+font-size: 40px;
+    
+font-family: 'Montserrat', sans-serif;
+    
+font-weight: 700;
+    
+text-transform: uppercase;
+    
+margin-top: 7px;
+}
+.item-img{}
+.item-img img{
+
+}
+.Popular-foods{
+    
+}
+.Popular-foods .items-info-2{
+
+position: absolute;
+
+margin-top: 24px;
+
+margin-left: 34px;
+}
+.Popular-foods .items-info-2 h5{
+
+color: #fff;
+
+font-size: 27px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 700;
+
+text-transform: uppercase;
+}
+.Popular-foods .items-info-2 h2{
+
+color: #fff;
+
+font-size: 31px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 700;
+
+text-transform: uppercase;
+
+margin-top: 7px;
+}
+
+.Popular-foods .item-img-2{
+
+}
+
+.Popular-foods .items-info-3{
+
+position: absolute;
+
+margin-top: 58px;
+
+margin-left: 34px;
+}
+.Popular-foods .items-info-3 h5{
+
+color: #fff;
+
+font-size: 27px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 700;
+
+text-transform: uppercase;
+}
+.Popular-foods .items-info-3 h2{
+
+color: #fff;
+
+font-size: 32px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 700;
+
+text-transform: uppercase;
+
+margin-top: 7px;
+}
+
+.Popular-foods .item-img-3{margin-top: 35px;}
+
+
+form{
+    
+width: 50%;
+    
+margin: auto;
+    
+display: flex;
+    
+padding: 20px 0px;
+}
+.form-section{
+
+text-align: center;
+
+padding: 35px 0px 55px 0px;
+}
+.reservation{
+
+text-transform: uppercase;
+}
+.reservation h6{
+
+font-size: 22px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+margin-bottom: 5px;
+}
+.reservation h1{
+
+margin-bottom: 40px;
+
+font-size: 44px;
+font-family: 'Fredericka the Great', serif;
+}
+.reservation form input{
+
+width: 100%;
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #999;
+
+padding: 12px 0 12px 14px;
+
+margin-bottom: 20px;
+
+border-radius: 3px;
+}
+.reservation form input[type="submit"]{
+    
+padding: 12px 0 12px 14px;
+    
+text-transform: uppercase;
+    
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;    
+background: #ffe001;
+    
+border: none;
+transition: .6s all ease-in-out;
+} 
+.reservation form input[type="submit"]:hover{
+    background: #000;
+    color: #ffe001;
+}
+.form-1{
+width: 50%;
+}
+.form-2{
+    width: 50%;
+    margin-left: 20px;
+}
+
+
+footer{
+    background-image: url(../images/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+.footer-top{
+
+}
+.footer-info{
+
+margin-top: 7%;
+}
+.footer-info img{
+    
+}
+.footer-info p{
+    
+margin-top: 60px;
+    
+color: #b8b8b8;
+    
+font-size: 17px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+}
+.footer-contact{
+
+margin-top: 40%;
+
+margin-left: 80px;
+}
+.contact-box{
+
+display: flex;
+
+margin-top: 20px;
+}
+.footer-icon{
+
+width: 27px;
+
+height: 25px;
+}
+.footer-icon i{font-size: 33px;color: #ffe001;}
+.footer-p{
+
+}
+.footer-p p{
+    
+margin-left: 23px;
+    
+color: #b8b8b8;
+    
+font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+}
+
+.footer-bottom{margin-top: 12%;}
+.footer-aling{
+    align-items: center;
+}
+.rights p{
+
+color: #b4b4b4;
+
+font-size: 18px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 400;
+}
+.social-icon{
+
+display: flex;
+
+margin-left: 30%;
+}
+.icon{
+
+margin-left: 25px;
+}
+.icon i{
+    
+color: #fff;
+    
+font-size: 33px;
+    
+cursor: pointer;
+}
+.icon i:hover{
+    color: #ffe001;
 }
